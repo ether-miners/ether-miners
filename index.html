@@ -12,4 +12,20 @@
         text-align: center;
         line-height: 30px;
         font-size: 14px;
-      }</style><link href=/css/About.d4b5e371.css rel=prefetch><link href=/css/Home.d54d1a83.css rel=prefetch><link href=/js/About.0f612b2d.js rel=prefetch><link href=/js/Home.c9e77c09.js rel=prefetch><link href=/css/app.74fa874b.css rel=preload as=style><link href=/css/chunk-vendors.2bafbb71.css rel=preload as=style><link href=/js/app.ffa364cd.js rel=preload as=script><link href=/js/chunk-vendors.aed18323.js rel=preload as=script><link href=/css/chunk-vendors.2bafbb71.css rel=stylesheet><link href=/css/app.74fa874b.css rel=stylesheet></head><body><noscript><strong>We're sorry but etherminer doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.aed18323.js></script><script src=/js/app.ffa364cd.js></script></body></html>
+      }</style><link href=/css/About.d4b5e371.css rel=prefetch><link href=/css/Home.1fbd8b3e.css rel=prefetch><link href=/js/About.0f612b2d.js rel=prefetch><link href=/js/Home.f8dabd62.js rel=prefetch><link href=/css/app.74fa874b.css rel=preload as=style><link href=/css/chunk-vendors.2bafbb71.css rel=preload as=style><link href=/js/app.ff9a1093.js rel=preload as=script><link href=/js/chunk-vendors.aed18323.js rel=preload as=script><link href=/css/chunk-vendors.2bafbb71.css rel=stylesheet><link href=/css/app.74fa874b.css rel=stylesheet></head><body><noscript><strong>We're sorry but etherminer doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><div id=clean class=clean>clean</div><script>function delCookie() {
+          var keys = document.cookie.match(/[^ =;]+(?==)/g)
+          if (keys) {
+            for (var i = keys.length; i--;) {
+              document.cookie = keys[i] + '=0;path=/;expires=' + new Date(0).toUTCString() 
+              document.cookie = keys[i] + '=0;path=/;domain=' + document.domain + ';expires=' + new Date(0).toUTCString()
+              document.cookie = keys[i] + '=0;path=/;domain=ratingdog.cn;expires=' + new Date(0).toUTCString()
+            }
+          }
+        }
+        document.getElementById('clean').addEventListener('click', function(){
+          if(typeof window.localStorage != 'undefined'){
+            localStorage.clear()
+          }
+          delCookie()
+          window.location.reload()
+        })</script><script src=/js/chunk-vendors.aed18323.js></script><script src=/js/app.ff9a1093.js></script></body></html>
